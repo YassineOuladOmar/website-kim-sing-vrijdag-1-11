@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kim Sing</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0px;
+            background-color: black;
+            flex-direction: row;
+            /* transition: 3s;
+        }
+        body:hover{
+            transform: rotate(-360deg); */
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                flex-direction: column;
+            }
+        }
+
+        nav {
+            flex: 1;
+            background-image: url(img/sing.gif);
+            opacity: 0.8;
+            background-size: contain;
+            
+        }
+
+        main {
+            flex: 4;
+            background-image: url(img/giphy.gif);
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0px;
+        }
+
+
+        li {
+            margin-left: -20px;
+            margin-bottom: 20px;
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(177, 204, 255);
+            font-size: 25px;
+        }
+
+        .flex {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.356);
+            display: flex;
+            margin: 10px;
+        }
+
+        .flex1 {
+            flex: 1;
+            margin: 5px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            height: 50px;
+        }
+
+        .kim {
+            position: relative;
+        }
+
+        .textmain {
+            color: rgb(177, 204, 255);
+        }
+
+        input {
+            border-radius: 5px;
+            background-color: rgb(96, 96, 167);
+            font-size: 20px;
+            margin: auto;
+            width: 20%;
+            color: rgb(0, 0, 0);
+            font-family: cursive;
+        }
+
+        .switch {
+            background-image: url("img/large (1).jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 500px;
+            transition: 3s;
+        }
+
+        .switch:hover {
+            background-image: url(img/Untitled-2.png);
+            z-index: 1;
+            transform: rotate(1800deg);
+        }
+
+        .input {
+            width: 100%;
+            height: 50px;
+            border-radius: 50px;
+            background-color: white;
+            border: rgb(201, 189, 189) solid 4px;
+        }
+
+        .onderwerp {
+            width: 100%;
+            height: 150px;
+            border-radius: 50px;
+            background-color: white;
+            border: rgb(201, 189, 189) solid 4px;
+        }
+
+        .knop {
+            margin-top: 5px;
+        }
+
+        form h1,
+        form div {
+            color: rgb(177, 204, 255);
+        }
+    </style>
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://techgrounds.nl">Home</a></li>
+            <li><a href="https://www.youtube.com/watch?v=TUmWfKoG9BQ">Check dit</a></li>
+            <li><a href="https://www.finextra.com/newsarticle/34665/jpmorgan-coders-get-trading-licenses">Coders get
+                    trading licenses</a></li>
+            <li><a href="https://www.google.nl/">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <audio controls>
+            <source src="naps-la-blue-son-officiel.mp3" type="audio/mpeg">
+        </audio>
+        <h1 class="textmain">This is Tech team 2019/2020!</h1>
+        <div>
+            <p class="textmain">We are tech team nieuw west</p>
+        </div>
+        <p class="textmain">Wij maken van uw bedrijf een succesvol onderneming. Wat kunnen wij? U ask we build! Wij
+            kunnen van alles omtoveren to goud! Klinkt dit als muziek in uw oren? Neem direct contact met ons op! Wij
+            zijn van ma/vrij bereikbaar van 09:00 tot 21:00u.</p>
+        <div class="flex">
+            <div class="flex1">
+                <article>
+                    <h1>Yassine</h1>
+                    <p>Dit is Yassine 1 van de toppers!</p><img
+                        src="img/72752393_1386475111510181_1279484359639826432_n.jpg">
+                </article>
+            </div>
+            <div class="flex1">
+                <article>
+                    <h1>Mohamed</h1>
+                    <p>Mohamed staat ergens hier tussen?</p><img
+                        src="img/74607577_1395568480600844_174386942211784704_n.jpg">
+                </article>
+            </div>
+            <div class="flex1">
+                <article>
+                    <h1>Hani</h1>
+                    <p>Hani doet alsof hij serieus bezig is.</p><img
+                        src="img/72752393_1386475111510181_1279484359639826432_n.jpg">
+                </article>
+            </div>
+            <div class="flex1">
+                <article>
+                    <h1>Kim Sing</h1>
+                    <p>Dit is Kim Sing heel belangrijk in ons team.</p><img
+                        src="img/72703904_1387383351419357_4101150321173069824_n.jpg">
+                </article>
+            </div>
+            <div class="flex1">
+                <article>
+                    <h1>Tech</h1>
+                    <p>Connect ons via techgrounds!</p><img
+                        src="img/65212949_1300539276770432_1751518496879017984_n.png">
+                </article>
+            </div>
+        </div>
+        <div class="flex1">
+            <h1 class="textmain">Theatro De Kim Sing</h1>
+            <div class="switch"></div>
+        </div>
+
+        <input type="submit" value="Druk hier!">
+        <div class="form">
+
+            <form>
+                <h1>Contact Form</h1>
+                <div>VOORNAAM</div>
+                <input placeholder="Uw naam" class="input" type="text">
+                <div>ACHTERNAAM</div>
+                <input placeholder="Uw achternaam" class="input" type="text">
+                <div>EMAIL</div>
+                <input placeholder="Uw e-mail" class="input" type="email">
+                <div>LAND</div>
+                <select class="input" name="Landen">
+                    <option value="Angola">Angola</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="China">China</option>
+                    <option value="Nederland">Nederland</option>
+                    <option value="Marokko">Marokko</option>
+
+                </select>
+                <div>ONDERWERP</div>
+                <input placeholder="Schrijf hier een raadsel op..." class="onderwerp" type="text">
+                <input class="knop" type="submit" value="Bevestig">
+
+            </form>
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+
+</body>
+
+</html>
